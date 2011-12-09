@@ -1,0 +1,5 @@
+This project contains a work-in-progress wrapper for abstracting away
+HTML5 storage with a fallback to cookies.
+
+It's intended to be as small as possible (for use on mobile) and run 
+independently from other JavaScript frameworks.
