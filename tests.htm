@@ -33,7 +33,7 @@
                         displayText += "<tr><td>" + keys[i] + "</td><td>" + $localStorage.get(keys[i]) + "</td><td><button onclick=\"removeItem('" + keys[i] + "')\">remove</button></td></tr>";
                     }
 
-                    output.innerText = displayText;
+                    output.innerHTML = displayText;
                 }
             }
         </script>
