@@ -2,6 +2,10 @@
 
     var store = window.localStorage;
     var cookiePrefix = "localstorage__";
+	
+    $localStorage.init = function(settings) {
+        cookiePrefix = settings.cookiePrefix || cookiePrefix;
+    };
 
     $localStorage.add = function (key, value) {
         var encodedValue = JSON.stringify(value);

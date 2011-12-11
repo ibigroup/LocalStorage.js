@@ -5,6 +5,13 @@
         <title>LocalStorage.js Tests</title>
         <script src="src/localStorage.js"></script>
         <script>
+            function init() {
+                $localStorage.init({
+				    cookiePrefix: "theOptionalCookiePrefix"
+                });
+                updateOutput();
+            }
+		
             function addItem() {
                 var key = document.getElementById("itemKey").value;
                 var value = document.getElementById("itemValue").value;
@@ -39,7 +46,7 @@
         </script>
     </head>
 
-    <body onload="updateOutput()">
+    <body onload="init()">
         <header>
             <h1>LocalStorage.js Tests</h1>
         </header>
