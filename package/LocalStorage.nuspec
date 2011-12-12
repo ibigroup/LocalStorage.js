@@ -10,6 +10,6 @@
     <tags>JavaScript localstorage</tags>
   </metadata>
   <files>
-    <file src="..\build\localStorage.min.js" target="content\scripts\localStorage.min.js" />
+    <file src="build\localStorage.min.js" target="content\scripts\localStorage.min.js" />
   </files>
 </package>
