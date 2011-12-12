@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LocalStorage.js</id>
+    <version>1.0</version>
+    <authors>Kevin Wilson</authors>
+    <owners>IBI Group</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Wrapper for HTML local storage with cookies fallback.</description>
+    <tags>JavaScript localstorage</tags>
+  </metadata>
+  <files>
+    <file src="content\scripts\localStorage.min.js" target="content\scripts\localStorage.min.js" />
+  </files>
+</package>
